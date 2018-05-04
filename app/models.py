@@ -13,7 +13,7 @@ class Curso(models.Model):
 class Vestibular(models.Model):
     nome = models.CharField(max_length=200)
 
-class listagem_dos_candidatos(models.Model): 
+class Candidato(models.Model): 
     nome = models.CharField(max_length=200)
     rg = models.CharField(max_length=30)
     cpf = models.IntegerField(max_length=11)
