@@ -89,4 +89,3 @@ def lista_candidatos(request):
         })
     )
 
-
