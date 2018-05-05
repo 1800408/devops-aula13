@@ -97,7 +97,7 @@ def lista_locais(request):
         context_instance = RequestContext(request,
         {
             'title':'Cadastro de locais da prova',
-            'locais': lista_locais.objects.all(),
+            'locais': locais.objects.all(),
             'year':datetime.now().year,
         })
     )
