@@ -19,3 +19,7 @@ class Candidato(models.Model):
     cpf = models.IntegerField(max_length=11)
     endereco = models.CharField(max_length=200)
     telefone = models.IntegerField(max_length=200)
+
+class lista_locais(models.Model): 
+    endereco = models.CharField(max_length=200)
+    faculdade = models.CharField(max_length=30)
