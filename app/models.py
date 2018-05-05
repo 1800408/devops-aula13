@@ -23,3 +23,4 @@ class Candidato(models.Model):
 class locais(models.Model): 
     endereco = models.CharField(max_length=200)
     faculdade = models.CharField(max_length=30)
+

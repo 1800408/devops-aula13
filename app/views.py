@@ -102,4 +102,3 @@ def lista_locais(request):
         })
     )
 
-
